@@ -14,8 +14,8 @@ include 'win32a.inc'
 exit:
 	invoke	ExitProcess,0
 
-_message db 'Есть куда пиво поставить?',0
-_caption db 'Пивка!?',0
+_message db 'Р•СЃС‚СЊ РєСѓРґР° РїРёРІРѕ РїРѕСЃС‚Р°РёС‚СЊ?',0
+_caption db 'РћРє!?',0
 
 _cmd_open db 'open cdaudio',0
 _cmd_eject db 'set cdaudio door open',0
